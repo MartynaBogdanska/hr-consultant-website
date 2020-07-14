@@ -2,12 +2,14 @@
 // BASE > HEADER
 //
 header.hero-image {
-    background: #48C6EF;
+    background: rgb(76, 146, 222);
     /* fallback for old browsers */
-    background: linear-gradient(to right, #48C6EF 0%, #6F86D6 100%);
+    background-image: linear-gradient(to right, rgba(76, 146, 222, 0.52), rgba(0, 29, 60, 0.73)), url(../public/images/resume-matters-homepage-photo.jpg);
+    background-size: cover;
     height: 100vh;
     .hero-text {
         position: absolute;
+        width: 100%;
         top: 50%;
         left: 50%;
         margin: 0 auto;

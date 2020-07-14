@@ -1,10 +1,10 @@
 {
     "website": {
-        "name": "website name",
-        "url": "#",
+        "name": "Resume Matters",
+        "url": "https://resumematters.com.au/",
         "meta": {
             "og": {
-                "description": "",
+                "description": "Eye Catching Resumes For Everyone",
                 "image": ""
             }
         }
@@ -16,11 +16,13 @@
         },
         "instagram": {
             "fontawesome": "fa fa-instagram",
-            "href": "https://www.instagram.com/"
+            "href": "https://www.instagram.com/",
+            "hidden": true
         },
         "linkedin": {
             "fontawesome": "fa fa-linkedin",
-            "href": "https://www.linkedin.com/"
+            "href": "https://www.linkedin.com/",
+            "hidden": true
         }
     },
     "skipLink": {
@@ -35,8 +37,8 @@
                 "hidden": true
             },
             "services": {
-                "label": "Services",
-                "href": "#services",
+                "label": "About",
+                "href": "#about",
                 "section": true
             },
             "price": {
@@ -44,13 +46,25 @@
                 "href": "#prices",
                 "section": true
             },
-            "about": {
-                "label": "About",
-                "href": "#about",
+            "testimonials": {
+                "label": "Testimonials",
+                "href": "#testimonials",
                 "section": true
+            },
+            "contact": {
+                "label": "Contact",
+                "href": "#contact",
+                "section": true
+            },
+            "advices": {
+                "name": "advices",
+                "label": "Career Advice",
+                "href": "advices",
+                "button": true
             },
             "dropdown": {
                 "label": "Dropdown List",
+                "hidden": true,
                 "sublinks": {
                     "dropdownitem1": {
                         "label": "Dropdown Item 1",
@@ -63,26 +77,61 @@
                     }
                 }
             },
-            "internal": {
-                "name": "internal",
-                "label": "Internal Page",
-                "href": "internal"
-            },
             "external": {
                 "label": "External Link",
                 "href": "https://getbootstrap.com/docs/4.5/",
-                "external": "true"
+                "external": "true",
+                "hidden": true
             }
         },
-
         "footerlinks": [{
-                "label": "Privacy policy",
+                "label": "Privacy Policy and Cookies",
                 "href": "policy"
             },
             {
                 "label": "Designed by MB",
-                "href": "https://www.behance.net/martynabrys"
+                "href": "https://www.behance.net/martynabrys",
+                "external": "true"
             }
         ]
+    },
+    "prices": {
+        "resume": {
+            "student": {
+                "old": "$239",
+                "new": "$139"
+            },
+            "professional": {
+                "old": "$269",
+                "new": "$169"
+            },
+            "menagement": {
+                "old": "$299",
+                "new": "$199"
+            },
+            "executive": {
+                "old": "$399",
+                "new": "$299"
+            }
+        },
+        "letter": {
+            "student": {
+                "old": "$299",
+                "new": "$199"
+            },
+            "professional": {
+                "old": "$329",
+                "new": "$229"
+            },
+            "menagement": {
+                "old": "$479",
+                "new": "$379"
+            },
+            "executive": {
+                "old": "$239",
+                "new": "$139"
+            }
+        }
+
     }
 }

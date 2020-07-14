@@ -1,8 +1,11 @@
+// Enable stuff
+$enable-gradients: true;
 // Variables import
 @import "variables/colors";
 @import "variables/typography";
 // Base import
 @import "base/body.scss";
+@import "base/cards.scss";
 @import "base/content.scss";
 @import "base/footer.scss";
 @import "base/header.scss";

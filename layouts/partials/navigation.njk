@@ -1,7 +1,7 @@
 <div id="wrapper-navbar">
     <nav id="site-navbar" class="navbar navbar-expand-sm navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="{{ relative }}">LOGO</a>
+            <a class="navbar-brand" href="{{ relative }}"><img src="public/images/logo-sign.png" alt="Go to Home" height="45"/></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -47,7 +47,7 @@
                                             >{{ item.label }}</a>
                                             
                                         {% else %}
-                                            <a class="nav-link {% if page_title == item.name %}is-active{% endif %}"
+                                            <a class="nav-link {% if page_title == item.name %}is-active{% endif %} {% if item.button %}btn btn-outline-primary text-primary{% endif %}"
                                             href="{{ relative }}{{ key | replace('home', '') }}/{{ subkey | replace('home', '') }}"
                                             >{{ item.label }}</a>
                                         {% endif %}
@@ -58,9 +58,12 @@
                     {% endfor %}
 
                     <!-- Social Media links -->
+                    
                     <div class="d-flex align-items-center ml-3">
                         {% for key, item in global.sociallinks %}
-                        <a href="{{ item.href }}" target="_blank" class="ml-3"><i class="{{ item.fontawesome }}"></i></a>
+                            {% if not item.hidden %}
+                                <a href="{{ item.href }}" target="_blank" class="ml-3"><i class="{{ item.fontawesome }}"></i></a>
+                            {% endif %}
                         {% endfor %}
                     </div>
                     

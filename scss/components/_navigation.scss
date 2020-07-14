@@ -14,19 +14,21 @@ Fixed main navigation on scroll
         &.scrolled {
             position: fixed;
             top: 0px;
-            background: linear-gradient(to right, #48C6EF 0%, #6F86D6 100%);
             width: 100%;
-            font-size: 0.8rem;
             transition: all 0.5s ease;
             animation: smoothScroll 0.5s forwards;
+            box-shadow: 0px 3px 6px 0px #0000002e;
             &.navbar {
                 transition: all 0.5s ease;
             }
             a {
-                color: white;
+                font-size: 0.7rem;
                 &.dropdown-item {
-                    font-size: 0.8rem;
+                    font-size: 0.7rem;
                     color: black;
+                }
+                img {
+                    max-height: 30px; //brand logo height
                 }
             }
         }
@@ -41,4 +43,25 @@ Fixed main navigation on scroll
         transform: translateY(0px);
     }
     // width: 100%;
+}
+
+// Man navigation links and buttons
+.nav-link,
+.btn {
+    font-family: $nav-text;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.btn-outline-primary:hover {
+    color: white !important;
+}
+
+a.text-primary.btn-outline-primary:hover {
+    color: white !important;
+}
+
+// Prices section
+#prices nav {
+    max-width: 700px;
 }

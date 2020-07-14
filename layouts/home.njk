@@ -4,16 +4,238 @@
     
     {% include "./layouts/partials/hero.njk" %}
 
-    <div class="container inner-page text-center">
+    <section class="w-100 text-center bg-light-gray">
+        <div class="container">
+            <img src="public/images/company-logos.png" alt="" width="100%" />
+        </div>
+    </section>
 
-        <section id="services" class="py-responsive">
-            <h2>Services</h2>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+    <div class="container">
+
+        <section id="about" class="container py-responsive">
+            <h2 class="text-center">Stop Struggling To Land A Job</h2>
+            <p class="lead text-justify mx-auto">Gain the confidence that you have the best resume and cover letter out of everyone. Let recruiters see how professional you really are. We’ll get you in the door and give you a chance to land that dream job. Stop struggling trying to write your resume and cover letter yourself and let a professional handle it.</p>
+            <div class="row py-responsive">
+                <div class="col-12 col-md-6 order-1 order-md-0">
+                    <img src="./public/images/resumes-mockup.jpg" alt="" width="100%" />
+                </div>
+                <div class="col-12 col-md-6 ">
+                    <h3 class="text-center text-md-left">Resume</h3>
+                    <p class="text-justify">Crafting a winning resume that’s going to capture the attention of a potential employer is a fine art where the smallest of details can make the biggest of differences.</p>
+                </div>
+            </div>
+
+            <div class="row py-responsive">
+                <div class="col-12 col-md-6 ">
+                    <h3 class="text-center text-md-left">Cover Letter</h3>
+                    <p class="text-justify">Crafting a winning resume that’s going to capture the attention of a potential employer is a fine art where the smallest of details can make the biggest of differences.</p>
+                </div>
+                <div class="col-12 col-md-6 ">
+                    <img src="./public/images/letter-mockup.jpg" alt="" width="100%" />
+                </div>
+            </div>
         </section>
+    </div>
 
-        <section id="prices" class="py-responsive">
-            <h2>Prices</h2>
-            <p>Qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+    <section class="bg-gradient text-white">
+        <div class="container py-responsive">
+            <h3 class="text-center">Creative Layout. Unique Approach</h3>
+            <p class="text-justify mx-auto">Why should you be just like everyone else? Don’t you want to stand out from the pack? Be a leader. On Average, recruiters spend <strong>SIX seconds</strong> viewing a resume. A professionally written and well-designed resume helps to stand out above the competition. Recruiters and hiring managers love anyone that takes initiative. Show them how much you want the job by letting us craft a resume tailored to your industry.</p>
+            <p class="text-center mx-auto"><a class="btn btn-success" href="{{ relative }}writing-process">Check Our Resume Writing Process</a></p>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="prices" class=" py-responsive">
+            <h2 class="text-center">Prices</h2>
+            <p class="lead text-center mx-auto">Choose the level of your career stage:</p>
+            
+            <nav class="mx-auto mt-5 mb-3">
+                <div class="nav nav-tabs justify-content-center mx-auto" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="nav-student-tab" data-toggle="tab" href="#nav-student" role="tab" aria-controls="nav-student" aria-selected="true">Student &amp; Graduate</a>
+                    <a class="nav-item nav-link" id="nav-professional-tab" data-toggle="tab" href="#nav-professional" role="tab" aria-controls="nav-professional" aria-selected="false">Professional</a>
+                    <a class="nav-item nav-link" id="nav-management-tab" data-toggle="tab" href="#nav-management" role="tab" aria-controls="nav-management" aria-selected="false">Management</a>
+                    <a class="nav-item nav-link" id="nav-executive-tab" data-toggle="tab" href="#nav-executive" role="tab" aria-controls="nav-executive" aria-selected="false">Executive</a>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-student" role="tabpanel" aria-labelledby="nav-student-tab">
+                    <!-- Cards Students -->
+                    <div class="card-deck mb-3 mx-auto">
+                        <div class="card mb-4 border-primary">
+                            <div class="card-header text-white bg-primary p-0">
+                                <p class="h6 m-0 text-center px-3">Resume Writing Services</p>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li class="mb-3"><b>✔ Professionally Written Resume</b></li>
+                                    <li>✔ New Style &amp; Format</li>
+                                    <li>✔ 2 Business Day Drafts</li>
+                                    <li>✔ Unlimited Document Revisions</li>
+                                    <li>✔ In-Depth Consultation</li>
+                                    <li>✔ Word &amp; PDF Documents</li>
+                                    <li>✔ All Industries Covered</li>
+                                    <li class="text-white">.</li>
+                                </ul>
+                                <hr>
+                                <p class="h1 m-0 card-title pricing-card-title text-center text-primary"><small class="text-line-through">{{ global.prices.resume.student.old }}</small> {{ global.prices.resume.student.new }}</p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4 border-primary">
+                            <div class="card-header text-white bg-primary p-0">
+                                <p class="h6 m-0 text-center px-3">Package <br> (Resume &amp; Cover Letter)</p>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li><b>✔ Professionally Written Resume</b></li>
+                                    <li class="mb-3"><b>✔ Targeted or Generic Cover Letter</b></li>
+                                    <li>✔ New Style &amp; Format</li>
+                                    <li>✔ 2 Business Day Drafts</li>
+                                    <li>✔ Unlimited Document Revisions</li>
+                                    <li>✔ In-Depth Consultation</li>
+                                    <li>✔ Word &amp; PDF Documents</li>
+                                    <li>✔ All Industries Covered</li>
+                                </ul>
+                                <hr>
+                                <p class="h1 m-0 card-title pricing-card-title text-center text-primary"><small class="text-line-through">{{ global.prices.letter.student.old }}</small> {{ global.prices.letter.student.new }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-professional" role="tabpanel" aria-labelledby="nav-professional-tab">
+                    <!-- Cards Professionals -->
+                    <div class="card-deck mb-3 mx-auto">
+                        <div class="card mb-4 border-primary">
+                            <div class="card-header text-white bg-primary p-0">
+                                <p class="h6 m-0 text-center px-3">Resume Writing Services</p>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li class="mb-3"><b>✔ Professionally Written Resume</b></li>
+                                    <li>✔ New Style &amp; Format</li>
+                                    <li>✔ 2 Business Day Drafts</li>
+                                    <li>✔ Unlimited Document Revisions</li>
+                                    <li>✔ In-Depth Consultation</li>
+                                    <li>✔ Word &amp; PDF Documents</li>
+                                    <li>✔ All Industries Covered</li>
+                                    <li class="text-white">.</li>
+                                </ul>
+                                <hr>
+                                <p class="h1 m-0 card-title pricing-card-title text-center text-primary"><small class="text-line-through">{{ global.prices.resume.professional.old }}</small> {{ global.prices.resume.professional.new }}</p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4 border-primary">
+                            <div class="card-header text-white bg-primary p-0">
+                                <p class="h6 m-0 text-center px-3">Package <br> (Resume &amp; Cover Letter)</p>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li><b>✔ Professionally Written Resume</b></li>
+                                    <li class="mb-3"><b>✔ Targeted or Generic Cover Letter</b></li>
+                                    <li>✔ New Style &amp; Format</li>
+                                    <li>✔ 2 Business Day Drafts</li>
+                                    <li>✔ Unlimited Document Revisions</li>
+                                    <li>✔ In-Depth Consultation</li>
+                                    <li>✔ Word &amp; PDF Documents</li>
+                                    <li>✔ All Industries Covered</li>
+                                </ul>
+                                <hr>
+                                <p class="h1 m-0 card-title pricing-card-title text-center text-primary"><small class="text-line-through">{{ global.prices.letter.professional.old }}</small> {{ global.prices.letter.professional.new }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-management" role="tabpanel" aria-labelledby="nav-management-tab">
+                   <!-- Cards Menagement -->
+                    <div class="card-deck mb-3 mx-auto">
+                        <div class="card mb-4 border-primary">
+                            <div class="card-header text-white bg-primary p-0">
+                                <p class="h6 m-0 text-center px-3">Resume Writing Services</p>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li class="mb-3"><b>✔ Professionally Written Resume</b></li>
+                                    <li>✔ New Style &amp; Format</li>
+                                    <li>✔ 2 Business Day Drafts</li>
+                                    <li>✔ Unlimited Document Revisions</li>
+                                    <li>✔ In-Depth Consultation</li>
+                                    <li>✔ Word &amp; PDF Documents</li>
+                                    <li>✔ All Industries Covered</li>
+                                    <li class="text-white">.</li>
+                                </ul>
+                                <hr>
+                                <p class="h1 m-0 card-title pricing-card-title text-center text-primary"><small class="text-line-through">{{ global.prices.resume.menagement.old }}</small> {{ global.prices.resume.menagement.new }}</p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4 border-primary">
+                            <div class="card-header text-white bg-primary p-0">
+                                <p class="h6 m-0 text-center px-3">Package <br> (Resume &amp; Cover Letter)</p>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li><b>✔ Professionally Written Resume</b></li>
+                                    <li class="mb-3"><b>✔ Targeted or Generic Cover Letter</b></li>
+                                    <li>✔ New Style &amp; Format</li>
+                                    <li>✔ 2 Business Day Drafts</li>
+                                    <li>✔ Unlimited Document Revisions</li>
+                                    <li>✔ In-Depth Consultation</li>
+                                    <li>✔ Word &amp; PDF Documents</li>
+                                    <li>✔ All Industries Covered</li>
+                                </ul>
+                                <hr>
+                                <p class="h1 m-0 card-title pricing-card-title text-center text-primary"><small class="text-line-through">{{ global.prices.letter.menagement.old }}</small> {{ global.prices.letter.menagement.new }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-executive" role="tabpanel" aria-labelledby="nav-executive-tab">
+                    <!-- Cards Executive -->
+                    <div class="card-deck mb-3 mx-auto">
+                        <div class="card mb-4 border-primary">
+                            <div class="card-header text-white bg-primary p-0">
+                                <p class="h6 m-0 text-center px-3">Resume Writing Services</p>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li class="mb-3"><b>✔ Professionally Written Resume</b></li>
+                                    <li>✔ New Style &amp; Format</li>
+                                    <li>✔ 2 Business Day Drafts</li>
+                                    <li>✔ Unlimited Document Revisions</li>
+                                    <li>✔ In-Depth Consultation</li>
+                                    <li>✔ Word &amp; PDF Documents</li>
+                                    <li>✔ All Industries Covered</li>
+                                    <li class="text-white">.</li>
+                                </ul>
+                                <hr>
+                                <p class="h1 m-0 card-title pricing-card-title text-center text-primary"><small class="text-line-through">{{ global.prices.resume.executive.old }}</small> {{ global.prices.resume.executive.new }}</p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4 border-primary">
+                            <div class="card-header text-white bg-primary p-0">
+                                <p class="h6 m-0 text-center px-3">Package <br> (Resume &amp; Cover Letter)</p>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li><b>✔ Professionally Written Resume</b></li>
+                                    <li class="mb-3"><b>✔ Targeted or Generic Cover Letter</b></li>
+                                    <li>✔ New Style &amp; Format</li>
+                                    <li>✔ 2 Business Day Drafts</li>
+                                    <li>✔ Unlimited Document Revisions</li>
+                                    <li>✔ In-Depth Consultation</li>
+                                    <li>✔ Word &amp; PDF Documents</li>
+                                    <li>✔ All Industries Covered</li>
+                                </ul>
+                                <hr>
+                                <p class="h1 m-0 card-title pricing-card-title text-center text-primary"><small class="text-line-through">{{ global.prices.letter.executive.old }}</small> {{ global.prices.letter.executive.new }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="about" class="py-responsive">

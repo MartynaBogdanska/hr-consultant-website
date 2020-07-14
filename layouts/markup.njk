@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl-PL" class="no-js">
+<html lang="en-AU" class="no-js">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
@@ -47,7 +47,7 @@
 
     <body>
         <!-- Skip Link -->
-        {% for link in global.skipLink %}
+        {% for key, link in global.skipLink %}
         <div class="container">
             <a class="sr-only sr-only-focusable" href="{{ link.href }}">{{ link.name }}</a>
         </div>

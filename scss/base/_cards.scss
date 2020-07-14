@@ -1,0 +1,11 @@
+//
+// BASE > CARDS
+//
+#prices .card-deck {
+    max-width: 703px;
+    .card-header p {
+        display: grid;
+        align-items: center;
+        height: 80px;
+    }
+}
