@@ -33,6 +33,7 @@ jQuery('a[href*="#"]')
     .not('[href="#"]')
     .not('[href="#0"]')
     .not('[href*="nav-"]')
+    .not('[href*="carousel"]')
     .click(function(event) {
         // On-page links
         if (
@@ -63,3 +64,7 @@ jQuery('a[href*="#"]')
             }
         }
     });
+
+$('.carousel').carousel({
+    interval: 20000
+})
