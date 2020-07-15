@@ -80,7 +80,7 @@
             "external": {
                 "label": "External Link",
                 "href": "https://getbootstrap.com/docs/4.5/",
-                "external": "true",
+                "external": true,
                 "hidden": true
             }
         },
@@ -91,7 +91,7 @@
             {
                 "label": "Designed by MB",
                 "href": "https://www.behance.net/martynabrys",
-                "external": "true"
+                "external": true
             }
         ]
     },
@@ -124,12 +124,12 @@
                 "new": "$229"
             },
             "menagement": {
-                "old": "$479",
-                "new": "$379"
+                "old": "$369",
+                "new": "$269"
             },
             "executive": {
-                "old": "$239",
-                "new": "$139"
+                "old": "$479",
+                "new": "$379"
             }
         }
 

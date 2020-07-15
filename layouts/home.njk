@@ -15,9 +15,9 @@
         <section id="about" class="container py-responsive">
             <h2 class="text-center">Stop Struggling To Land A Job</h2>
             <p class="lead text-justify mx-auto">Gain the confidence that you have the best resume and cover letter out of everyone. Let recruiters see how professional you really are. We’ll get you in the door and give you a chance to land that dream job. Stop struggling trying to write your resume and cover letter yourself and let a professional handle it.</p>
-            <div class="row py-responsive">
+            <div class="row py-responsive align-center">
                 <div class="col-12 col-md-6 order-1 order-md-0">
-                    <img src="./public/images/resumes-mockup.jpg" alt="" width="100%" />
+                    <img src="./public/images/resumes-mockup.png" alt="" width="100%" />
                 </div>
                 <div class="col-12 col-md-6 ">
                     <h3 class="text-center text-md-left">Resume</h3>
@@ -25,13 +25,13 @@
                 </div>
             </div>
 
-            <div class="row py-responsive">
+            <div class="row py-responsive align-center">
                 <div class="col-12 col-md-6 ">
                     <h3 class="text-center text-md-left">Cover Letter</h3>
                     <p class="text-justify">Crafting a winning resume that’s going to capture the attention of a potential employer is a fine art where the smallest of details can make the biggest of differences.</p>
                 </div>
                 <div class="col-12 col-md-6 ">
-                    <img src="./public/images/letter-mockup.jpg" alt="" width="100%" />
+                    <img src="./public/images/letters-mockup.png" alt="" width="100%" />
                 </div>
             </div>
         </section>
@@ -41,13 +41,13 @@
         <div class="container py-responsive">
             <h3 class="text-center">Creative Layout. Unique Approach</h3>
             <p class="text-justify mx-auto">Why should you be just like everyone else? Don’t you want to stand out from the pack? Be a leader. On Average, recruiters spend <strong>SIX seconds</strong> viewing a resume. A professionally written and well-designed resume helps to stand out above the competition. Recruiters and hiring managers love anyone that takes initiative. Show them how much you want the job by letting us craft a resume tailored to your industry.</p>
-            <p class="text-center mx-auto"><a class="btn btn-success" href="{{ relative }}writing-process">Check Our Resume Writing Process</a></p>
+            <p class="text-center mx-auto"><a class="btn btn-outline-success" href="{{ relative }}writing-process">Check Our Resume Writing Process</a></p>
         </div>
     </section>
 
     <!-- Values Section -->
     <section id="values" class="container py-responsive">
-        <h2 class="text-center">About us</h2>
+        <h2 class="text-center">About Us</h2>
         <p class="lead text-center mx-auto">Keeping a finger on the beating pulse of the industry is what we do best.</p>
         <div class="row my-5">
             <div class="col-12 col-md-6 p-4 p-md-5 text-center">
@@ -84,7 +84,7 @@
     <!-- Prices Section -->
     <section id="prices" class="container py-responsive">
         <h2 class="text-center">Prices</h2>
-        <p class="lead text-center mx-auto">Choose the level of your career stage:</p>
+        <p class="lead text-center mx-auto">Choose a level of your career stage:</p>
             
         <nav class="mx-auto mt-5 mb-5">
             <div class="nav nav-tabs justify-content-center mx-auto" id="nav-tab" role="tablist">
@@ -280,13 +280,8 @@
             <h2 class="text-center">Satisfied Customers</h2>
 
             <!-- Clients Carousel -->
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
+            <div id="carouselExampleIndicators" class="carousel slide py-5" data-ride="carousel">
+                <div class="carousel-inner mx-auto">
                     <div class="carousel-item active text-center">
                         <p class="mx-auto"><i>"My new resume looks great, thank you so much! I feel much more confident now applying with the resume you’ve created."</i>
                         <br>- Matthew M.</p>
@@ -314,8 +309,21 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="container py-responsive">
+    <section id="contact" class="container pt-responsive pb-0">
         <h2 class="text-center">Contact Us</h2>
-        <p class="lead"></p>
+        <p class="lead text-justify mx-auto">We’re here to help, and there are plenty of ways you can connect with us at Resume Matters. Our Customer Service team is available to take your order, or you can send us an enquiry and we’ll get back to you within <b>24 hours</b>. If social media is more your thing, join the conversation on our social community on <a href="https://facebook.com" target="_blank">Facebook</a>.</p>
+        <div class="row pt-responsive align-flex-end">
+            <div class="col-12 col-md-6 text-center">
+                <img src="public/images/anna-photo.png" alt="Effective Resume Writer in Resume Matters" width="100%" class="position-relative" style="bottom:0;"/>
+            </div>
+            <div class="col-12 col-md-6 pb-5 text-center text-md-left">
+                <h3>Anna Majewska</h3>
+                <p class="lead">Founder</p>
+                <hr>
+                <p class="contact-info"><span class="fa fa-whatsapp"></span> <a href="https://api.whatsapp.com/send?phone=61411077881">+61 411 077 881</a></p>
+                <p class="contact-info"><span class="fa fa-envelope-o"></span> <a href="mailto:contact@resumematters.com.au">contact@resumematters.com.au</a></p>
+                <p class="contact-info"><span class="fa fa-facebook-square"></span> <a href="https://facebook.com" target="_blank">@resumematters</a></p>
+            </div>
+        </div>
     </section>
 {% endblock %}

@@ -1,3 +1,7 @@
 //
 // BASE > HTML
 //
+.container:focus,
+section:focus {
+    outline: none;
+}

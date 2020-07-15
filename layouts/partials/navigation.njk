@@ -1,7 +1,7 @@
 <div id="wrapper-navbar">
     <nav id="site-navbar" class="navbar navbar-expand-sm navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="{{ relative }}"><img src="public/images/logo-sign.png" alt="Go to Home" height="45"/></a>
+            <a class="navbar-brand" href="{{ relative }}"><img src="{{ relative }}public/images/logo-sign.png" alt="Go to Home" height="45"/></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -59,10 +59,10 @@
 
                     <!-- Social Media links -->
                     
-                    <div class="d-flex align-items-center ml-3">
+                    <div class="d-flex align-items-center mt-3 mt-md-0 ml-md-3">
                         {% for key, item in global.sociallinks %}
                             {% if not item.hidden %}
-                                <a href="{{ item.href }}" target="_blank" class="ml-3"><i class="{{ item.fontawesome }}"></i></a>
+                                <a href="{{ item.href }}" target="_blank" class="mr-3"><i class="{{ item.fontawesome }}"></i></a>
                             {% endif %}
                         {% endfor %}
                     </div>

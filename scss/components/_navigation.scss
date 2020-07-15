@@ -28,7 +28,7 @@ Fixed main navigation on scroll
                     color: black;
                 }
                 img {
-                    max-height: 30px; //brand logo height
+                    max-height: 40px; //brand logo height
                 }
             }
         }
@@ -53,6 +53,10 @@ Fixed main navigation on scroll
     text-transform: uppercase;
 }
 
+.navbar-nav a.nav-link.btn {
+    padding: 0.5rem 1.5rem;
+}
+
 .btn-outline-primary:hover {
     color: white !important;
 }
@@ -61,12 +65,22 @@ a.text-primary.btn-outline-primary:hover {
     color: white !important;
 }
 
-// Prices section
+// Prices - Navigation
 #prices nav {
     max-width: 700px;
 }
 
 // Testimonials - Carousel
-#testimonials .carousel-indicators {
-    bottom: -40px;
+#testimonials {
+    .carousel-indicators {
+        bottom: -40px;
+    }
+    .carousel-inner {
+        width: 50%;
+    }
+    @include media-breakpoint-up(lg) {
+        .carousel-inner {
+            width: 100%;
+        }
+    }
 }

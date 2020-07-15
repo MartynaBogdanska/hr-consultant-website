@@ -1,16 +1,18 @@
-// Enable stuff
-$enable-gradients: true;
 // Variables import
 @import "variables/colors";
 @import "variables/typography";
+// Import Bootstrap stuff from node modules
+@import "../node_modules/bootstrap/scss/bootstrap";
 // Base import
 @import "base/body.scss";
-@import "base/cards.scss";
 @import "base/content.scss";
 @import "base/footer.scss";
 @import "base/header.scss";
 @import "base/html.scss";
 @import "base/type.scss";
 // Components import
+@import "components/buttons.scss";
+@import "components/cards.scss";
+@import "components/images.scss";
 @import "components/navigation.scss";
 @import "components/utilities.scss";

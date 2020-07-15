@@ -65,6 +65,7 @@ jQuery('a[href*="#"]')
         }
     });
 
+// Modify carousel intervals
 $('.carousel').carousel({
     interval: 20000
 })
