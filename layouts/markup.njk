@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>{{ title }}</title>
+    <title>{{ title }} | {{ global.website.name }}</title>
 
     <meta name="description" content="{{ global.website.meta.og.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -47,11 +47,9 @@
 
     <body>
         <!-- Skip Link -->
-        {% for key, link in global.skipLink %}
         <div class="container">
-            <a class="sr-only sr-only-focusable" href="{{ link.href }}">{{ link.name }}</a>
+            <a class="sr-only sr-only-focusable" href="{{ global.skipLink.href }}">{{ global.skipLink.name }}</a>
         </div>
-        {% endfor %}
 
         <!-- Main Navigation -->
         {% include "./partials/navigation.njk" %}

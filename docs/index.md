@@ -1,4 +1,4 @@
 ---
-Title: Resume Matters
+title: Home
 layout: home.njk
 ---
