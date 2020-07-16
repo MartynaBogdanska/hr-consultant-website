@@ -1,7 +1,7 @@
 ---
 title: Career Advices
 page_title: advices
-relative: ../../
+relative: ../
 ---
 
 # Career advices

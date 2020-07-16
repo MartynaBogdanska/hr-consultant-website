@@ -1,7 +1,7 @@
 ---
 title: Our Resume Writing Process
 page_title: writing-process
-relative: ../../
+relative: ../
 ---
 
 # Our Resume Writing Process

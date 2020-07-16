@@ -1,6 +1,6 @@
 ---
 title: Policy
-relative: ../../
+relative: ../
 ---
 
 # Privacy Policy and cokies
