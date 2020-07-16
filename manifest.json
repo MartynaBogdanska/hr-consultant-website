@@ -1,7 +1,7 @@
 {
-    "name": "Website Full Name",
-    "short_name": "Website Short Name",
-    "start_url": "/index.html",
+    "name": "Resume Matters",
+    "short_name": "Resume Matters",
+    "start_url": "https://resumematters.com.au/",
     "icons": [{
             "src": "/icon-144x144.png",
             "sizes": "144x144",
@@ -14,7 +14,7 @@
         }
     ],
     "background_color": "#FFFFFF",
-    "theme_color": "#FFFFFF",
+    "theme_color": "#4484CE",
     "display": "standalone",
     "orientation": "portrait"
 }

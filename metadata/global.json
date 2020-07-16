@@ -5,14 +5,14 @@
         "meta": {
             "og": {
                 "description": "Eye Catching Resumes For Everyone",
-                "image": ""
+                "image": "https://resumematters.com.au/public/images/facebook-img.png"
             }
         }
     },
     "sociallinks": {
         "facebook": {
             "fontawesome": "fa fa-facebook",
-            "href": "https://www.facebook.com/"
+            "href": "https://www.facebook.com/Resume-Matters-108942453836867"
         },
         "instagram": {
             "fontawesome": "fa fa-instagram",
