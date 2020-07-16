@@ -3,7 +3,7 @@
         <p class="small text-white my-0">© 2020 Resume Matters 
             {% for link in global.site.footerlinks %}
             | <a href="{{ relative }}{{ link.href }}" 
-                {% if link.external %}target="_blank"{% endif %}
+                {% if link.external %}target="_blank" rel="noopener noreferrer"{% endif %}
                 >{{ link.label }}</a>
             {% endfor %}
         </p>

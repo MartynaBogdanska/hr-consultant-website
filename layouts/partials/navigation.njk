@@ -39,6 +39,7 @@
                                         <a class="nav-link"
                                         href="{{ item.href }}"
                                         target="_blank"
+                                        rel="noopener noreferrer"
                                         >{{ item.label }}</a>
                                     {% else %}
                                         {% if item.section %}
@@ -62,7 +63,7 @@
                     <div class="d-flex align-items-center mt-3 mt-md-0 ml-md-3">
                         {% for key, item in global.sociallinks %}
                             {% if not item.hidden %}
-                                <a href="{{ item.href }}" target="_blank" class="mr-3"><i class="{{ item.fontawesome }}"></i></a>
+                                <a href="{{ item.href }}" target="_blank" rel="noopener" class="mr-3"><i class="{{ item.fontawesome }}"></i></a>
                             {% endif %}
                         {% endfor %}
                     </div>
