@@ -1,7 +1,7 @@
 {
-    "name": "website",
+    "name": "resume-matters",
     "version": "1.0.0",
-    "description": "My new website: https://website.com",
+    "description": "Resume Matters: https://resumematters.com.au/",
     "main": "index.js",
     "dependencies": {},
     "devDependencies": {
