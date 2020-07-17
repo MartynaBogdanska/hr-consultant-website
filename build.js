@@ -61,3 +61,10 @@ Metalsmith(__dirname)
     .build((err) => {
         if (err) throw err;
     });
+
+Metalsmith(__dirname)
+    .source('./manifest')
+    .destination('./dist/')
+    .build((err) => {
+        if (err) throw err;
+    });
