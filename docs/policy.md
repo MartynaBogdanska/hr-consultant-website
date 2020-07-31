@@ -3,7 +3,7 @@ title: Policy
 relative: ../
 ---
 
-# Privacy Policy and cokies
+# Privacy policy and cookies
 
 ## Resume Matters
 
